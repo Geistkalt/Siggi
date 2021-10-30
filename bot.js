@@ -7,7 +7,7 @@ client.login(process.env.BOT_TOKEN);
 client.on('guildMemberAdd', member => {
   const channel = member.guild.channels.cache.find(ch => ch.id === '903934968177233930');
   if (!channel) return;
-  channel.send(`Willkommen ${member}  is gerade gespawnt auf ${servername} Discord Server, dieser Invitecode wurde benutzt: ${invite} und die Einladung wurde erstellt von ${inviter} . Muahahaha LG.: <@903948564370186300> `);
+  channel.send(`Willkommen ${member} ist gerade gespawnt auf {servername} Discord Server, dieser Invitecode wurde benutzt: {invite} und die Einladung wurde erstellt von {inviter} . Muahahaha LG.: <@903948564370186300> `);
   });
 
 client.on('ready', () => {
