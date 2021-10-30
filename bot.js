@@ -5,9 +5,9 @@ const PREFIX = process.env.PREFIX;
 client.login(process.env.BOT_TOKEN);
 
 client.on('guildMemberAdd', member => {
-  const channel = member.guild.channels.cache.find(ch => ch.id === '712451929829015612');
+  const channel = member.guild.channels.cache.find(ch => ch.id === '903934968177233930');
   if (!channel) return;
-  channel.send(`Willkommen ${member} auf DuckArmy©, unseren leicht gepimpten Destiny 2 - [Gaming - Chat & LFG] - Discord-Clan-Server für alle abgeduckten DuckArmy© Member. Im Moment befinden wir uns in Season 13. LG.: <@706757822381031494> `);
+  channel.send(`Willkommen ${member}  is gerade gespawnt auf ${servername} Discord Server, dieser Invitecode wurde benutzt: ${invite} und die Einladung wurde erstellt von ${inviter} . Muahahaha LG.: <@903948564370186300> `);
   });
 
 client.on('ready', () => {
