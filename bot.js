@@ -116,7 +116,7 @@ client.on('message', function(message) {
         embed.setColor('#ff4a00');
         embed.setTitle('EsIstDerSiggii');
         embed.setURL('https://www.twitch.tv/esistdersiggii');
-        embed.setThumbnail('https://cdn.discordapp.com/attachments/708016375892803745/713280491557486643/du1500.png');
+        embed.setThumbnail('https://cdn.discordapp.com/attachments/903951432607215636/903982771012247623/458022a7-edd0-4375-a9e5-9670686409b7-profile_image-70x70.png');
         embed.addFields(
                 { name: '"❤️❤️❤️Willkommen auf meinem Discord Server❤️❤️❤️"', value: 'Dies ist gerade noch eine Testnachricht, wenn der Bot genug Infos über mich hat steht hier sehr bald mehr. LG.: <@471083551396331565>' },
         { name: '\u200B', value: '\u200B' },
