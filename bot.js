@@ -7,7 +7,7 @@ client.login(process.env.BOT_TOKEN);
 client.on('guildMemberAdd', member => {
   const channel = member.guild.channels.cache.find(ch => ch.id === '903934968177233930');
   if (!channel) return;
-  channel.send(`Willkommen ${member} ist gerade gespawnt auf TEST TEST TEST . Muahahaha LG.: <@903948564370186300> `);
+  channel.send(`Welcome ${member} ist gerade gespawnt auf TEST TEST TEST . Muahahaha LG.: <@903948564370186300> `);
   });
 
 client.on('ready', () => {
