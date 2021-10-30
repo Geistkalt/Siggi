@@ -120,10 +120,10 @@ client.on('message', function(message) {
         embed.addFields(
                 { name: '"❤️❤️❤️Willkommen auf meinem Discord Server❤️❤️❤️"', value: 'Dies ist gerade noch eine Testnachricht, wenn der Bot genug Infos über mich hat steht hier sehr bald mehr. LG.: <@471083551396331565>' },
         { name: '\u200B', value: '\u200B' },
-        { name: 'myTwitter', value: 'https://twitter.com/ESiggii', inline: true },
-        { name: 'myYoutube', value: 'https://www.youtube.com/channel/UC9mylOnzY9gV95V898hBQxA', inline: true },
+        { name: 'Twitter', value: 'https://twitter.com/ESiggii', inline: true },
+        { name: 'Youtube', value: 'https://www.youtube.com/channel/UC9mylOnzY9gV95V898hBQxA', inline: true },
     )
-        embed.addField('myInstagram',  'https://www.instagram.com/therealsiggii/', true);
+        embed.addField('Instagram',  'https://www.instagram.com/therealsiggii/', true);
         embed.setImage('https://cdn.discordapp.com/attachments/903951432607215636/903982781669994506/ed05901800767f61c95ad5a3de330e9e.png');
         embed.setTimestamp();
         embed.setFooter('Kämpfe für deine Ziele, und gebe niemals auf', 'https://cdn.discordapp.com/avatars/471083551396331565/ed05901800767f61c95ad5a3de330e9e.png');
