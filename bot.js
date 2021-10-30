@@ -112,21 +112,21 @@ client.on('message', function(message) {
     else if(isValidCommand(message, "embed")) {
         let embedContent = message.content.substring(7);
         let embed = new discord.MessageEmbed();
-        embed.setDescription('CLANMOTTO');
-        embed.setColor('#cef8ff');
-        embed.setTitle('DuckArmy:copyright:');
-        embed.setURL('https://www.bungie.net/de/ClanV2?groupid=3653189');
+        embed.setDescription('👋welcome📌');
+        embed.setColor('#ff4a00');
+        embed.setTitle('EsIstDerSiggii');
+        embed.setURL('https://www.twitch.tv/esistdersiggii');
         embed.setThumbnail('https://cdn.discordapp.com/attachments/708016375892803745/713280491557486643/du1500.png');
         embed.addFields(
-                { name: '"You wont achieve anything here without team spirit."', value: 'Du bist auf der suche nach einem Destiny 2 Clan und bist im Besitz einer minimalen geistigen Reife, die dir sogar ermöglicht dich den anderen Clanmates gegenüber vorzustellen oder zumindest regelmäßig im Clanchat Hallo zu sagen? Toll, dann bist du da oben weiter entwickelt als die meisten Chaoten die bisher durchgewunken wurden und sich irgendwann gefragt haben warum sie nicht mehr im Clan sind. Du erfüllst also schonmal unsere wichtigste Anforderung an dich. Wenn du Neugierig oder Lebensmüde bist, findest du weitere Infos in den folgenden Angaben... LG.: <@706757822381031494>' },
+                { name: '"❤️❤️❤️Willkommen auf meinem Discord Server❤️❤️❤️"', value: 'Dies ist gerade noch eine Testnachricht, wenn der Bot genug Infos über mich hat steht hier sehr bald mehr. LG.: <@471083551396331565>' },
         { name: '\u200B', value: '\u200B' },
-        { name: 'D2_CROSSSAVEGYM:copyright:', value: 'https://discord.gg/y7w6pmgUGs', inline: true },
-        { name: 'DUCKARMY:copyright:', value: 'https://www.bungie.net/de/ClanV2?groupid=3653189', inline: true },
+        { name: 'myTwitter', value: 'https://twitter.com/ESiggii', inline: true },
+        { name: 'myYoutube', value: 'https://www.youtube.com/channel/UC9mylOnzY9gV95V898hBQxA', inline: true },
     )
-        embed.addField('Clananfragen',  'richtest du bitte an <@620306072174854155>', true);
-        embed.setImage('https://cdn.discordapp.com/attachments/708016375892803745/708026854186942564/index.png');
+        embed.addField('myInstagram',  'https://www.instagram.com/therealsiggii/', true);
+        embed.setImage('https://cdn.discordapp.com/attachments/903951432607215636/903982781669994506/ed05901800767f61c95ad5a3de330e9e.png');
         embed.setTimestamp();
-        embed.setFooter('And the Duckness comes over you', 'https://cdn.discordapp.com/attachments/697303546076332063/707588930677243914/crosssave.png');
+        embed.setFooter('Kämpfe für deine Ziele, und gebe niemals auf', 'https://cdn.discordapp.com/avatars/471083551396331565/ed05901800767f61c95ad5a3de330e9e.png');
         
         
         message.channel.send(embed);
