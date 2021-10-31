@@ -29,8 +29,8 @@ client.on('message', function(message) {
     if(isValidCommand(message, "help"))
         message.reply("Dir ist nicht mehr zu helfen: https://www.telefonseelsorge.de/");
         if(message.author.bot) return;
-    if(isValidCommand(message, "pve"))
-        message.reply("PvE in this game is great but PvP is a joke!");
+    if(isValidCommand(message, "rules"))
+        message.reply("In <#903931303798390824> kannst du unsere Serverregeln finden und sie akzeptieren um die Grunberechtigungen für den Server erhalten.");
         if(message.author.bot) return;
     if(isValidCommand(message, "pvp"))
         message.reply("You are a joke if you take pvp seriously in this game!");
@@ -50,8 +50,8 @@ client.on('message', function(message) {
     if(isValidCommand(message, "commands"))
         message.reply("[ !hello !hi !ho !ping !hallo !help !pve !pvp !daily !weekly !xur !rank]");
         if(message.author.bot) return;
-    if(isValidCommand(message, "selfrole"))
-        message.reply("In <#712451897373753457> kannst du dich selbst mit Rollen versorgen, bitte sei so fair und geb dir insbesondere für die Destiny 2 Siegel nur die Rollen, die dir wirklich zustehen und nicht die, welche du gerne mal haben willst. Die Spieltyp-Rollen sind für dich wichtig, wenn du z.B. nur für Schmelztiegel angepingt werden möchtest, weil du z.B. keine Raids spielst usw. ... . Hier werden nach und nach weitere Rollen erscheinen, schau ab und zu mal herein.");
+    if(isValidCommand(message, "roles"))
+        message.reply("In <#903931674969120810> kannst du dich selbst mit Rollen versorgen. Hier werden nach und nach weitere Rollen erscheinen, schau ab und zu mal herein.");
       
 
 
@@ -114,8 +114,8 @@ client.on('message', function(message) {
         let embed = new discord.MessageEmbed();
         embed.setDescription(embedContent);
         embed.setColor('#ff4a00');
-        embed.setTitle("Mitspielersuche-LFG");
-        embed.setThumbnail('https://cdn.discordapp.com/attachments/903951432607215636/903982771012247623/458022a7-edd0-4375-a9e5-9670686409b7-profile_image-70x70.png');
+        embed.setTitle("Supportticket erstellen");
+        embed.setThumbnail('https://cdn.discordapp.com/attachments/903951432607215636/903968404837376000/support_ticket.png');
         embed.setTimestamp();
         embed.setFooter('Kämpfe für deine Ziele, und gebe niemals auf', 'https://cdn.discordapp.com/avatars/471083551396331565/ed05901800767f61c95ad5a3de330e9e.png');
         message.channel.send(embed);
