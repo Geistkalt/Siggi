@@ -114,7 +114,7 @@ client.on('message', function(message) {
         let embed = new discord.MessageEmbed();
         embed.setDescription(embedContent);
         embed.setColor('#ff4a00');
-        embed.setTitle("Supportticket erstellen");
+        embed.setTitle("Notify");
         embed.setThumbnail('https://cdn.discordapp.com/attachments/903951432607215636/903968404837376000/support_ticket.png');
         embed.setTimestamp();
         embed.setFooter('Kämpfe für deine Ziele, und gebe niemals auf', 'https://cdn.discordapp.com/avatars/471083551396331565/ed05901800767f61c95ad5a3de330e9e.png');
