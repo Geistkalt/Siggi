@@ -123,8 +123,8 @@ client.on('message', function(message) {
         { name: 'Twitter', value: 'https://twitter.com/ESiggii', inline: true },
         { name: 'Youtube', value: 'https://www.youtube.com/channel/UC9mylOnzY9gV95V898hBQxA', inline: true },
     )
-        embed.addField('Instagram',  'https://www.instagram.com/therealsiggiii/', true);
-        embed.setImage('https://cdn.discordapp.com/attachments/903951432607215636/903982781669994506/ed05901800767f61c95ad5a3de330e9e.png');
+        embed.addField('Instagram',  'https://www.instagram.com/therealsiggii/', true);
+        embed.setImage('https://cdn.discordapp.com/attachments/903951432607215636/903951456728662036/Welcome_MW.png');
         embed.setTimestamp();
         embed.setFooter('Kämpfe für deine Ziele, und gebe niemals auf', 'https://cdn.discordapp.com/avatars/471083551396331565/ed05901800767f61c95ad5a3de330e9e.png');
         
