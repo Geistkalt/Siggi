@@ -29,7 +29,7 @@ client.on('message', function(message) {
     if(isValidCommand(message, "help"))
         message.reply("Dir ist nicht mehr zu helfen: https://www.telefonseelsorge.de/");
         if(message.author.bot) return;
-    if(isValidCommand(message, "rules"))
+    if(isValidCommand(message, "welcome"))
         message.reply("In <#903931303798390824> kannst du unsere Serverregeln finden und sie akzeptieren um die Grunberechtigungen für den Server erhalten.");
         if(message.author.bot) return;
     if(isValidCommand(message, "pvp"))
