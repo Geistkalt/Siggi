@@ -112,13 +112,13 @@ client.on('message', function(message) {
     else if(isValidCommand(message, "embed")) {
         let embedContent = message.content.substring(7);
         let embed = new discord.MessageEmbed();
-        embed.setDescription('👋welcome📌');
+        embed.setDescription('WELCOME');
         embed.setColor('#ff4a00');
         embed.setTitle('EsIstDerSiggii');
         embed.setURL('https://www.twitch.tv/esistdersiggii');
         embed.setThumbnail('https://cdn.discordapp.com/attachments/903951432607215636/903982771012247623/458022a7-edd0-4375-a9e5-9670686409b7-profile_image-70x70.png');
         embed.addFields(
-                { name: '"Willkommen auf meinem Discord Server❤️"', value: 'Dies ist gerade noch eine Testnachricht, wenn der Bot genug Infos über mich hat steht hier sehr bald mehr. LG.: <@471083551396331565>' },
+                { name: '"Willkommen auf meinem Discord Server❤️"', value: 'Schön das du den Weg hierher gefunden hast, hier hast du die möglichkeit dich mit unserer Community zu connecten und  dich selber einzubringen. Ich hoffe du wirst hier etwas Interessantes für dich finden und wünsche die einen angenehemen Aufenthalt. Bitte Akzeptiere noch unten stehende Regeln mit einem Klick auf die Reaktion/des Emojis unter Regeln um sofort durchstarten zu können und automatisch die Hauptrolle des Servers und entsprechende Berechtigungen zu erhalten. LG.: <@471083551396331565>' },
         { name: '\u200B', value: '\u200B' },
         { name: 'Twitter', value: 'https://twitter.com/ESiggii', inline: true },
         { name: 'Youtube', value: 'https://www.youtube.com/channel/UC9mylOnzY9gV95V898hBQxA', inline: true },
