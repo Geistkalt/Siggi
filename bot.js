@@ -123,7 +123,7 @@ client.on('message', function(message) {
   });
 client.on('ready', () => {
    
-    client.user.setActivity('probier +help', { type: 'PLAYING'}).catch(console.error);
+    client.user.setActivity('probier +welcome', { type: 'PLAYING'}).catch(console.error);
     setInterval(function() {
 
         
